@@ -118,7 +118,7 @@ a {
 .main {
     flex: 1 1 auto;
     &__block {
-        margin: 110px auto;
+        margin: 150px auto;
         max-width: 400px;
         text-align: center;
     }
@@ -143,6 +143,7 @@ a {
         font-size: 30px;
         line-height: 24px;
         font-weight: 400;
+        letter-spacing: 0.05em;
         line-height: 1.6;
         text-transform: uppercase;
         font-family: "Dosis", sans-serif;
@@ -165,7 +166,6 @@ a {
     overflow: hidden;
     border: 2px solid #fe6637;
     border-radius: 8px;
-    font-family: "Montserrat", sans-serif;
     color: #fe6637;
     transition: 0.2s ease-in-out;
 }
